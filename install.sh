@@ -276,7 +276,7 @@ wget -qO /etc/rc.local "https://raw.githubusercontent.com/Hanxhin/Autoscript/mai
 chmod +x /etc/rc.local
 
 # Configure crontab
-echo "0 0 * * * root reboot" >> /etc/crontab
+echo "0 4 * * * root reboot" >> /etc/crontab
 echo "55 23 * * * root script-2" >> /etc/crontab
 
 # Configure lock Dropbear multi-login
