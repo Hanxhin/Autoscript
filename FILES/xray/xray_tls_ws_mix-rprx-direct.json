@@ -63,7 +63,7 @@
           "security": "none",
           "wsSettings": {
               "acceptProxyProtocol": true,
-              "path": "/xray"
+              "path": "wss://who.int/xray"
           }
       }
   }
